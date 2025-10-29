@@ -36,6 +36,289 @@
         }
       ],
       "type_asset": "sdk.coin"
+    },
+    {
+      "description": "Draguu The Official Meme Coin of Dungeon Chain",
+      "extended_description": "",
+      "denom_units": [
+        {
+          "denom": "factory/dungeon10w427atus8vrwnl2308282khg3nfllzjzmey25/draguu",
+          "exponent": 0
+        },
+        {
+          "denom": "DRAGUU",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/dungeon10w427atus8vrwnl2308282khg3nfllzjzmey25/draguu",
+      "name": "DRAGUU",
+      "display": "DRAGUU",
+      "symbol": "DRAGUU",
+      "logo_URIs": {
+        "png": ""
+      },
+      "socials": {
+        "website": "https://www.cryptodungeon.org",
+        "twitter": "https://twitter.com/cryptodungeonma"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png",
+          "theme": {
+            "circle": true
+          }
+        }
+      ],
+      "type_asset": "sdk.coin"
+    },
+    {
+      "description": "Liquid Staked DGN Token",
+      "extended_description": "Liquid Staking Token for Dungeon Chain provided by BackBoneLabs.",
+      "denom_units": [
+        {
+          "denom": "factory/dungeon1yeaxu9krjx63gj9j7s2u95tmewv4m2nw5x2z2lk7s7a9689t5pjq9k8vzf/bDGN",
+          "exponent": 0
+        },
+        {
+          "denom": "bDGN",
+          "exponent": 6
+        }
+      ],
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chain_name": "dungeon",
+            "base_denom": "udgn"
+          },
+          "provider": "BackBoneLabs"
+        }
+      ],
+      "base": "factory/dungeon1yeaxu9krjx63gj9j7s2u95tmewv4m2nw5x2z2lk7s7a9689t5pjq9k8vzf/bDGN",
+      "name": "bDGN",
+      "display": "bDGN",
+      "symbol": "bDGN",
+      "logo_URIs": {
+        "png": ""
+      },
+      "socials": {
+        "website": "https://app.backbonelabs.io",
+        "twitter": "https://twitter.com/backbonelabs_io"
+      },
+      "images": [
+        {
+          "png": "",
+          "theme": {
+            "circle": true
+          }
+        }
+      ],
+      "type_asset": "sdk.coin"
+    },
+    {
+      "description": "The native staking and governance token of AtomOne",
+      "denom_units": [
+        {
+          "denom": "ibc/295196BD505E32B9679BA0CFDB70B4FF2AADE80A3B73A2F234284D7A709844DA",
+          "exponent": 0,
+          "aliases": [
+            "uatone"
+          ]
+        },
+        {
+          "denom": "atone",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/295196BD505E32B9679BA0CFDB70B4FF2AADE80A3B73A2F234284D7A709844DA",
+      "name": "Atone",
+      "display": "atone",
+      "symbol": "ATONE",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg"
+        }
+      ],
+      "socials": {
+        "website": "https://atom.one",
+        "twitter": "https://x.com/_atomone"
+      },
+      "coingecko_id": "atomone"
+    },
+    {
+      "description": "The fee token of AtomOne",
+      "denom_units": [
+        {
+          "denom": "ibc/BD2C670DB4465BCB862F988EF4FD7595C56AE2ECB9CC9EF14AF7A776091E88AE",
+          "exponent": 0
+        },
+        {
+          "denom": "photon",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/BD2C670DB4465BCB862F988EF4FD7595C56AE2ECB9CC9EF14AF7A776091E88AE",
+      "type_asset": "ics20",
+      "name": "Photon",
+      "display": "photon",
+      "symbol": "PHOTON",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg"
+        }
+      ],
+      "socials": {
+        "website": "https://atom.one",
+        "twitter": "https://x.com/_atomone"
+      }
+    },
+    {
+      "description": "Neutron is a smart contract blockchain within the Cosmos ecosystem, leveraging the Cosmos Hub's security to provide cross-chain DeFi applications.",
+      "extended_description": "Neutron is a blockchain network designed to bring smart contracts to the Cosmos ecosystem using CosmWasm. It leverages Interchain Security to rely on the Cosmos Hub's validator set, enhancing its security without needing its own validators. This allows Neutron to provide robust, cross-chain smart contract applications across more than 50 interconnected blockchains. Neutron's focus on interchain queries and transactions enables secure data retrieval and transaction execution across multiple chains, fostering the development of complex and decentralized applications within the Cosmos network.",
+      "denom_units": [
+        {
+          "denom": "ibc/1F8CB23E10369EF0A5E88407E13D5FB20F74EED779BD8B3AE24973B12047EF96",
+          "exponent": 0
+        },
+        {
+          "denom": "ntrn",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/1F8CB23E10369EF0A5E88407E13D5FB20F74EED779BD8B3AE24973B12047EF96",
+      "name": "Neutron",
+      "display": "ntrn",
+      "symbol": "NTRN",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg"
+      },
+      "coingecko_id": "neutron-3",
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg",
+          "theme": {
+            "circle": true
+          }
+        }
+      ],
+      "socials": {
+        "website": "https://neutron.org/",
+        "twitter": "https://twitter.com/Neutron_org"
+      },
+      "type_asset": "ics20"
+    },
+    {
+      "description": "Neutron is a smart contract blockchain within the Cosmos ecosystem, leveraging the Cosmos Hub's security to provide cross-chain DeFi applications.",
+      "extended_description": "Neutron is a blockchain network designed to bring smart contracts to the Cosmos ecosystem using CosmWasm. It leverages Interchain Security to rely on the Cosmos Hub's validator set, enhancing its security without needing its own validators. This allows Neutron to provide robust, cross-chain smart contract applications across more than 50 interconnected blockchains. Neutron's focus on interchain queries and transactions enables secure data retrieval and transaction execution across multiple chains, fostering the development of complex and decentralized applications within the Cosmos network.",
+      "denom_units": [
+        {
+          "denom": "ibc/1F8CB23E10369EF0A5E88407E13D5FB20F74EED779BD8B3AE24973B12047EF96",
+          "exponent": 0
+        },
+        {
+          "denom": "ntrn",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/1F8CB23E10369EF0A5E88407E13D5FB20F74EED779BD8B3AE24973B12047EF96",
+      "name": "Neutron",
+      "display": "ntrn",
+      "symbol": "NTRN",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg"
+      },
+      "coingecko_id": "neutron-3",
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg",
+          "theme": {
+            "circle": true
+          }
+        }
+      ],
+      "socials": {
+        "website": "https://neutron.org/",
+        "twitter": "https://twitter.com/Neutron_org"
+      },
+      "type_asset": "ics20"
+    },
+    {
+      "description": "Drop staked NTRN",
+      "extended_description": "Drop protocol token for the interchain liquidity",
+      "denom_units": [
+        {
+          "denom": "ibc/970D464F80B72146D1308D93487E939F2189B2E0721D726D52A03A4ADA62101A",
+          "exponent": 0
+        },
+        {
+          "denom": "dNTRN",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/970D464F80B72146D1308D93487E939F2189B2E0721D726D52A03A4ADA62101A",
+      "name": "dNTRN",
+      "display": "dNTRN",
+      "symbol": "dNTRN",
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dNTRN.svg"
+        }
+      ],
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dNTRN.svg"
+      },
+      "socials": {
+        "website": "https://www.drop.money/",
+        "twitter": "https://x.com/Dropdotmoney"
+      },
+      "type_asset": "ics20"
+    },
+    {
+      "description": "Drop staked ATOM",
+      "extended_description": "Drop protocol token for the interchain liquidity",
+      "denom_units": [
+        {
+          "denom": "ibc/1114FA9F4E892E5264A4B0327B3D2306BD38DF3DA0E40172840A39AF3E792FEE",
+          "exponent": 0
+        },
+        {
+          "denom": "dATOM",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/1114FA9F4E892E5264A4B0327B3D2306BD38DF3DA0E40172840A39AF3E792FEE",
+      "name": "dATOM",
+      "display": "dATOM",
+      "symbol": "dATOM",
+      "coingecko_id": "drop-staked-atom",
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg"
+        }
+      ],
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg"
+      },
+      "socials": {
+        "website": "https://www.drop.money/",
+        "twitter": "https://x.com/Dropdotmoney"
+      },
+      "type_asset": "ics20"
     }
   ]
 }
