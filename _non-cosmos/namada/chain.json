@@ -41,8 +41,8 @@
   "description": "Namada is a composable privacy layer for the multichain ecosystem. It's a proof-of-stake Layer 1 designed to protect user data through a shielded asset hub and shielded cross-chain transactions. Namada can support any asset and helps bring data protection to existing chains, dapps, tokens, and NFTs. Built primarily in Rust, Namada uses CometBFT consensus and the IBC (Inter-Blockchain Communication) protocol for multichain interoperability, with the ability to expand to additional ecosystems beyond IBC. By leveraging advanced cryptography such as zk-SNARKs and a strong interoperability model, Namada serves as a privacy-preserving building block for users interacting across many blockchains and protocols.",
   "apis": {
     "rpc": [
-      { 
-        "provider": "Heliax", 
+      {
+        "provider": "Heliax",
         "address": "https://rpc.namada.net"
       },
       {
@@ -93,16 +93,16 @@
         "provider": "anodeofzen",
         "address": "https://namada-rpc.zenode.app"
       },
-      { 
+      {
         "provider": "max-02",
         "address": "https://rpc.namada.max-02.xyz"
       },
-      { 
-        "provider": "Grand Valley", 
+      {
+        "provider": "Grand Valley",
         "address": "https://lightnode-rpc-mainnet-namada.grandvalleys.com"
       },
       {
-        "provider": "deNodes", 
+        "provider": "deNodes",
         "address": "https://namada-mainnet-rpc.denodes.xyz"
       },
       {
@@ -117,35 +117,35 @@
         "provider": "NODERS",
         "address": "https://namada-rpc.noders.services"
       },
-      { 
+      {
         "provider": "Wavefive",
         "address": "https://namada-rpc.wavefive.xyz"
       },
-      { 
+      {
         "provider": "Architect Nodes",
         "address": "https://rpc-namada.architectnodes.com"
       },
-      { 
+      {
         "provider": "Citizen Web3",
         "address": "https://rpc.namada-archive.citizenweb3.com"
       },
-      { 
+      {
         "provider": "Coverlet",
         "address": "https://rpc.namada.coverlet.io"
       },
-      { 
+      {
         "provider": "CroutonDigital",
         "address": "https://namada-mainnet-rpc.crouton.digital"
       },
-      { 
+      {
         "provider": "0xWave",
         "address": "https://namada-rpc.0xwave.com"
       },
-      { 
+      {
         "provider": "Cosmic Validator",
         "address": "https://namada-rpc.cosmicvalidator.com"
       },
-      { 
+      {
         "provider": "Hadesguard",
         "address": "https://namada-rpc.hadesguard.tech"
       },
@@ -153,15 +153,15 @@
         "provider": "LiveRaveN",
         "address": "https://namada.rpc.liveraven.net"
       },
-      { 
+      {
         "provider": "TdrSys",
         "address": "https://namada.tdrsys.com"
       },
-      { 
+      {
         "provider": "Nodes.Guru",
         "address": "https://rpc-1.namada.nodes.guru"
       },
-      { 
+      {
         "provider": "StakeUp",
         "address": "https://rpc.namada.stakeup.tech"
       }
